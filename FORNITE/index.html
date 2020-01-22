@@ -1,0 +1,26 @@
+<html>
+	<head>
+	 <meta http-equiv="content-type" content="text/html; charset=iso-  8859-1">
+	 <title>menghitung luas segitiga</title>
+	 <script type="text/javascript">
+
+     function hitungluas(){
+		 alas=document.getElementById("txtalas").value;
+		 tinggi=document.getElementById("txttinggi").value;
+		 luas=1/2*alas*tinggi;
+		 document.getElementById("txtluas").value = luas;
+	 }
+	 </script>
+	</head>
+ <body>
+	 <center>
+<b><h3>menghitung luas</h3> </b>
+<br/>
+<br/>
+	alas: <input type="text" id="txtalas" name="txtalas"><br/><br/>
+	tinggi: <input type="text" id="txttinggi" name="txttinggi"><br/><br/>
+	<input type="buttom" id="btnhitung" value="hitung luas"  onclick="hitungluas();">
+	: 	<input type="text" id="txtluas" name="txtluas">
+	 </center>
+ </body>
+</html>
